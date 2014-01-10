@@ -14,5 +14,12 @@
            
            
        </div>
+       <script>
+           document.addEventListener("deviceready", function(){
+            navigator.notification.vibrate(1000);
+            navigator.notification.alert("Hello");
+            navigator.notification.beep(1);   
+        }, false);
+       </script>
    </BODY>
 </HTML>
