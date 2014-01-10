@@ -7,6 +7,7 @@ function loadDokument() {
 function startEtude(nummer) {
     
     "use strict";
+    navigator.notification.vibrate(300);
     switch (nummer) {
     case 0:
         document.getElementById("appdiv").innerHTML = 'Tryk herefter <a href="javascript:startEtude(1);return(0);" >her</a> for at gå videre';
